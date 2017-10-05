@@ -4,7 +4,7 @@ This repository provides a simple toy example of neural ICA, i.e ICA embedded in
 
 ## The Adaptive Spacial Layer
 
-see `model.AdaptiveSpacialLayer`
+see `model.AdaptiveSpacialLayer`. 
 An adaptive spatial layer applies adaptive weights to its input channels and returns transformed channels. The weights depend on the input, i.e. each element of a training minibatch uses a different set of weights. Weights are determined based on spacial features of the input obtained with fully connected layers as in [TCL](https://arxiv.org/abs/1605.06336). All time samples of a same example are transformed with the same weights. 
 
 _figure: arriving soon_
