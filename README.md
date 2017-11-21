@@ -19,7 +19,7 @@ A multilayer adaptive spatial net is obtained by stacking such adaptive spacial 
 
 Mixed signals:
 
-![](img/mixed.png =)
+![](img/mixed.png)
 
 Unmixed signals:
 
