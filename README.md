@@ -18,7 +18,8 @@ A multilayer adaptive spatial net is obtained by stacking such adaptive spacial 
 `ica_poc_train.py` shows a basic proof of concept on toy signals mixed with random coefficients. A training time, many mixed examples (all with different mixing coefficients) are presented. After training, the network is able to separate sources _in a single forward pass_. 
 
 Mixed signals:
-![](img/mixed.png)
+![](img/mixed.png =)
+
 Unmixed signals:
 ![](img/unmixed.png)
 
