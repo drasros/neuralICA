@@ -13,14 +13,14 @@ An adaptive spatial layer applies adaptive weights to its input channels and ret
 
 A multilayer adaptive spatial net is obtained by stacking such adaptive spacial layers (linearly or non-linearly). Here we present a linear stack, i.e. the unmixing is in each adaptive layer is linear. But spacial features used to determine adaptive weights are non-linear. The net is trained with an _ICA cost_, i.e. it is trained to maxime the non-gaussianity and asymetry of its output. 
 
-![](img/adapt_spa_net.png)
+![](img/adap_spa_net.png)
 
 `ica_poc_train.py` shows a basic proof of concept on toy signals mixed with random coefficients. A training time, many mixed examples (all with different mixing coefficients) are presented. After training, the network is able to separate sources _in a single forward pass_. 
 
 Mixed signals:
 ![](img/mixed.png)
 Unmixed signals:
-![](img/mixed.png)
+![](img/unmixed.png)
 
 ## Other analyses based on costatistics between channels
 
